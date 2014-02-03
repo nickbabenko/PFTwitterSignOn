@@ -17,6 +17,6 @@ Pod::Spec.new do |s|
   s.frameworks = 'Social', 'Accounts'
 
   s.requires_arc = true
-  s.dependency 'LVTwitterOAuthClient', :git => 'git@github.com:nickbabenko/LVTwitterOAuthClient.git'
+  s.dependency 'LVTwitterOAuthClient', '~> 0.0.1', :git => 'git@github.com:nickbabenko/LVTwitterOAuthClient.git'
   s.dependency 'AFOAuth1Client', '~> 0.3.3'
 end
